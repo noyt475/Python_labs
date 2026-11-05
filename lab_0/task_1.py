@@ -1,4 +1,4 @@
-fio = input()
+fio = input("Введите своё ФИО: ")
 surname, name, patronymic = fio.split()
 surname = surname.capitalize()
 name = name[0].upper()

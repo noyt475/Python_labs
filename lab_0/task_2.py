@@ -1,4 +1,4 @@
-password = input()
+password = input("Введите надёжный пароль: ")
 length = len(password)
 letters = password.isalpha()
 numbers = password.isdigit()

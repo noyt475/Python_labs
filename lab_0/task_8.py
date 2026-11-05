@@ -4,7 +4,7 @@ rand = random.randint(1, 100)
 num = 0
 
 while num != rand:
-    print("Введите число: ")
+    print("Введите загаданное число: ")
     num = int(input())
     if num < rand:
         print("Больше")
